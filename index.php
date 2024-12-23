@@ -258,12 +258,15 @@
         while ($news_query->have_posts()) : $news_query->the_post();
             // Отримуємо додаткові поля через ACF
             $news_image = get_field('news_image'); // Поле для зображення
-            $news_description = get_field('news_description'); // Поле для опису
+            $news_description = get_field('news_description');
+            $link = get_field('link'); // Поле для зовнішнього лінку
+            // Якщо лінк не вказаний, використовуємо стандартну пермалінк запису
+            $post_link = $link ? $link : get_permalink(); 
     ?>
             <div class="carousel-item <?php echo $active_class; ?>">
                 <img src="<?php echo esc_url($news_image); ?>" class="d-block w-100" alt="<?php the_title(); ?>" />
                 <div class="carousel-caption d-block">
-                    <a href="<?php the_permalink(); ?>" class="news-1">
+                    <a href="<?php echo esc_url($post_link); ?>" class="news-1">
                         <h5><?php the_title(); ?></h5>
                     </a>
                     <p class="text-news"><?php echo esc_html($news_description); ?></p>
@@ -288,6 +291,7 @@
     <span class="visually-hidden">Наступна</span>
   </button>
 </div>
+
 
 
 
