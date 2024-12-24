@@ -250,7 +250,7 @@
     // Отримуємо всі новини (пости)
     $news_query = new WP_Query([
         'post_type' => 'post', // Тип записів (новини)
-        'posts_per_page' => 5, // Кількість новин
+        'posts_per_page' => 10, // Кількість новин
     ]);
 
     if ($news_query->have_posts()) :

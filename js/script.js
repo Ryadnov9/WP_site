@@ -1,4 +1,4 @@
-/*Поиск */
+/*Пошук */
 function filterContent() {
   const searchQuery = document.getElementById("search").value.toLowerCase();
   const contentElements = document.querySelectorAll(
