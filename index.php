@@ -16,11 +16,11 @@
       >
         <div class="feature col" id="feature">
           <div
-            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-3"
           >
             <svg class="bi" width="8em" height="8em" viewBox="0 0 300 300">
               <image
-                href="<?php echo get_template_directory_uri(); ?>//image/1.jpg"
+                href="<?php the_field('photo1'); ?>"
                 x="0"
                 y="0"
                 width="300"
@@ -42,11 +42,11 @@
         </div>
         <div class="feature col" id="feature">
           <div
-            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-3"
           >
             <svg class="bi" width="8em" height="8em" viewBox="0 0 300 300">
               <image
-                href="<?php echo get_template_directory_uri(); ?>//image/2.jpg"
+                href="<?php the_field('photo2'); ?>"
                 x="0"
                 y="0"
                 width="300"
@@ -68,11 +68,11 @@
         </div>
         <div class="feature col" id="feature">
           <div
-            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-3"
           >
             <svg class="bi" width="8em" height="8em" viewBox="0 0 300 300">
               <image
-                href="<?php echo get_template_directory_uri(); ?>//image/3.jpg"
+                href="<?php the_field('photo3'); ?>"
                 x="0"
                 y="0"
                 width="300"
@@ -94,11 +94,11 @@
         </div>
         <div class="feature col" id="feature">
           <div
-            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3"
           >
             <svg class="bi" width="8em" height="8em" viewBox="0 0 300 300">
               <image
-                href="<?php echo get_template_directory_uri(); ?>//image/4.jpg"
+                href="<?php the_field('photo4'); ?>"
                 x="0"
                 y="0"
                 width="300"
@@ -120,11 +120,11 @@
         </div>
         <div class="feature col" id="feature">
           <div
-            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-3"
           >
             <svg class="bi" width="8em" height="8em" viewBox="0 0 300 300">
               <image
-                href="<?php echo get_template_directory_uri(); ?>//image/5.jpg"
+                href="<?php the_field('photo5'); ?>"
                 x="0"
                 y="0"
                 width="300"
@@ -146,11 +146,11 @@
         </div>
         <div class="feature col" id="feature">
           <div
-            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-3"
           >
             <svg class="bi" width="8em" height="8em" viewBox="0 0 300 300">
               <image
-                href="<?php echo get_template_directory_uri(); ?>//image/6.jpg"
+                href="<?php the_field('photo6'); ?>"
                 x="0"
                 y="0"
                 width="300"
@@ -172,7 +172,7 @@
         </div>
         <div class="feature col" id="feature">
           <div
-            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-3"
           >
             <svg
               class="bi"
@@ -182,7 +182,7 @@
               preserveAspectRatio="xMidYMid slice"
             >
               <image
-                href="<?php echo get_template_directory_uri(); ?>//image/7.jpg"
+                href="<?php the_field('photo7'); ?>"
                 x="0"
                 y="0"
                 width="300"
